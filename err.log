@@ -1,0 +1,223 @@
+
+sh: ffmpeg: command not found
+sh: ffmpeg: command not found
+ffmpeg version 5.1.1ffmpeg version 5.1.1 Copyright (c) 2000-2022 the FFmpeg developers Copyright (c) 2000-2022 the FFmpeg developers
+
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+  libpostproc    56.  6.100 / 56.  6.100
+videos/xsCRFuhdDLA.webm: No such file or directory
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/xsCRFuhdDLA.m4a':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    creation_time   : 2018-10-29T01:39:47.000000Z
+  Duration: 00:35:08.84, start: 0.000000, bitrate: 129 kb/s
+  Stream #0:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 0 kb/s (default)
+    Metadata:
+      creation_time   : 2018-10-29T01:39:47.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 10/28/2018.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> mp2 (native))
+Press [q] to stop, [?] for help
+Output #0, mp2, to 'videos/xsCRFuhdDLA.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf59.27.100
+  Stream #0:0(eng): Audio: mp2, 44100 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      creation_time   : 2018-10-29T01:39:47.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 10/28/2018.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 mp2
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=    5632kB time=00:02:04.07 bitrate= 371.9kbits/s speed= 248x    size=   11776kB time=00:04:13.06 bitrate= 381.2kbits/s speed= 253x    size=   19456kB time=00:06:57.53 bitrate= 381.7kbits/s speed= 278x    size=   25600kB time=00:09:07.28 bitrate= 383.2kbits/s speed= 274x    size=   32000kB time=00:11:26.43 bitrate= 381.9kbits/s speed= 275x    size=   38400kB time=00:13:42.74 bitrate= 382.3kbits/s speed= 274x    size=   46336kB time=00:16:31.07 bitrate= 383.0kbits/s speed= 283x    size=   54272kB time=00:19:19.53 bitrate= 383.4kbits/s speed= 290x    size=   62208kB time=00:22:11.26 bitrate= 382.8kbits/s speed= 296x    size=   69376kB time=00:24:41.34 bitrate= 383.7kbits/s speed= 296x    size=   77312kB time=00:27:34.48 bitrate= 382.8kbits/s speed= 301x    size=   85248kB time=00:30:20.09 bitrate= 383.7kbits/s speed= 303x    size=   91136kB time=00:32:27.96 bitrate= 383.3kbits/s speed= 300x    size=   97024kB time=00:34:32.12 bitrate= 383.6kbits/s speed= 296x    size=   98852kB time=00:35:08.82 bitrate= 384.0kbits/s speed= 296x    
+video:0kB audio:98852kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+WARNING: XvmbmDCp0qI: writing DASH m4a. Only some players support this container. Install ffmpeg or avconv to fix this automatically.
+ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.
+ERROR: unable to rename file: [Errno 2] No such file or directory: 'videos/XvmbmDCp0qI.m4a.part' -> 'videos/XvmbmDCp0qI.m4a'
+ffmpeg version 5.1.1ffmpeg version 5.1.1 Copyright (c) 2000-2022 the FFmpeg developers Copyright (c) 2000-2022 the FFmpeg developers
+
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+  libpostproc    56.  6.100 / 56.  6.100
+videos/XvmbmDCp0qI.webm: No such file or directory
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/XvmbmDCp0qI.m4a':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    creation_time   : 2018-10-26T17:39:05.000000Z
+  Duration: 00:18:40.36, start: 0.000000, bitrate: 151 kb/s
+  Stream #0:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2018-10-26T17:39:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 10/26/2018.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> mp2 (native))
+Press [q] to stop, [?] for help
+Output #0, mp2, to 'videos/XvmbmDCp0qI.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf59.27.100
+  Stream #0:0(eng): Audio: mp2, 44100 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      creation_time   : 2018-10-26T17:39:05.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 10/26/2018.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 mp2
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=    5888kB time=00:02:07.46 bitrate= 378.4kbits/s speed= 255x    size=   13824kB time=00:04:58.62 bitrate= 379.2kbits/s speed= 299x    size=   21760kB time=00:07:48.78 bitrate= 380.3kbits/s speed= 312x    size=   29440kB time=00:10:33.19 bitrate= 380.9kbits/s speed= 317x    size=   37120kB time=00:13:16.51 bitrate= 381.8kbits/s speed= 319x    size=   45312kB time=00:16:10.38 bitrate= 382.5kbits/s speed= 323x    size=   52517kB time=00:18:40.35 bitrate= 384.0kbits/s speed= 326x    
+video:0kB audio:52517kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+WARNING: 25pCq9DquU0: writing DASH m4a. Only some players support this container. Install ffmpeg or avconv to fix this automatically.
+ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.
+ffmpeg version 5.1.1ffmpeg version 5.1.1 Copyright (c) 2000-2022 the FFmpeg developers Copyright (c) 2000-2022 the FFmpeg developers
+
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+  libpostproc    56.  6.100 / 56.  6.100
+videos/25pCq9DquU0.webm: No such file or directory
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/25pCq9DquU0.m4a':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    creation_time   : 2022-09-14T19:26:01.000000Z
+  Duration: 00:49:00.09, start: 0.000000, bitrate: 129 kb/s
+  Stream #0:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 0 kb/s (default)
+    Metadata:
+      creation_time   : 2022-09-14T19:26:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> mp2 (native))
+Press [q] to stop, [?] for help
+Output #0, mp2, to 'videos/25pCq9DquU0.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf59.27.100
+  Stream #0:0(eng): Audio: mp2, 44100 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      creation_time   : 2022-09-14T19:26:01.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 mp2
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=    6656kB time=00:02:22.40 bitrate= 382.9kbits/s speed= 285x    size=   14336kB time=00:05:09.54 bitrate= 379.4kbits/s speed= 309x    size=   22016kB time=00:07:50.24 bitrate= 383.5kbits/s speed= 313x    size=   28928kB time=00:10:19.32 bitrate= 382.6kbits/s speed= 310x    size=   35584kB time=00:12:43.05 bitrate= 382.0kbits/s speed= 305x    size=   40448kB time=00:14:23.85 bitrate= 383.6kbits/s speed= 288x    size=   45312kB time=00:16:10.25 bitrate= 382.6kbits/s speed= 277x    size=   52224kB time=00:18:38.29 bitrate= 382.6kbits/s speed= 280x    size=   57344kB time=00:20:26.49 bitrate= 383.0kbits/s speed= 273x    size=   62208kB time=00:22:09.80 bitrate= 383.2kbits/s speed= 266x    size=   67584kB time=00:24:03.56 bitrate= 383.5kbits/s speed= 262x    size=   74496kB time=00:26:34.16 bitrate= 382.8kbits/s speed= 266x    size=   81408kB time=00:29:01.49 bitrate= 382.9kbits/s speed= 268x    size=   88832kB time=00:31:35.90 bitrate= 383.8kbits/s speed= 271x    size=   95744kB time=00:34:06.23 bitrate= 383.3kbits/s speed= 273x    size=  102400kB time=00:36:28.42 bitrate= 383.3kbits/s speed= 274x    size=  109824kB time=00:39:04.00 bitrate= 383.8kbits/s speed= 276x    size=  116480kB time=00:41:26.11 bitrate= 383.8kbits/s speed= 276x    size=  124416kB time=00:44:17.47 bitrate= 383.5kbits/s speed= 280x    size=  132096kB time=00:47:00.14 bitrate= 383.7kbits/s speed= 282x    size=  137818kB time=00:49:00.09 bitrate= 384.0kbits/s speed= 282x    
+video:0kB audio:137818kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+WARNING: 0_RnkZuwuDM: writing DASH m4a. Only some players support this container. Install ffmpeg or avconv to fix this automatically.
+ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.
+ERROR: unable to rename file: [Errno 2] No such file or directory: 'videos/0_RnkZuwuDM.m4a.part' -> 'videos/0_RnkZuwuDM.m4a'
+ERROR: unable to rename file: [Errno 2] No such file or directory: 'videos/0_RnkZuwuDM.m4a.part' -> 'videos/0_RnkZuwuDM.m4a'
+ffmpeg version 5.1.1ffmpeg version 5.1.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+ Copyright (c) 2000-2022 the FFmpeg developers  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+  libpostproc    56.  6.100 / 56.  6.100
+videos/0_RnkZuwuDM.webm: No such file or directory
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'videos/0_RnkZuwuDM.m4a':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    creation_time   : 2022-05-12T10:23:54.000000Z
+  Duration: 00:53:24.98, start: 0.000000, bitrate: 257 kb/s
+  Stream #0:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2022-05-12T10:23:54.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> mp2 (native))
+Press [q] to stop, [?] for help
+Output #0, mp2, to 'videos/0_RnkZuwuDM.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf59.27.100
+  Stream #0:0(eng): Audio: mp2, 44100 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      creation_time   : 2022-05-12T10:23:54.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.37.100 mp2
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=    5888kB time=00:02:06.08 bitrate= 382.6kbits/s speed= 252x    size=   12800kB time=00:04:34.37 bitrate= 382.2kbits/s speed= 274x    size=   18944kB time=00:06:49.06 bitrate= 379.4kbits/s speed= 273x    size=   25600kB time=00:09:10.51 bitrate= 380.9kbits/s speed= 275x    size=   32256kB time=00:11:31.99 bitrate= 381.9kbits/s speed= 277x    size=   38912kB time=00:13:55.43 bitrate= 381.6kbits/s speed= 278x    size=   45824kB time=00:16:18.40 bitrate= 383.7kbits/s speed= 280x    size=   52992kB time=00:18:53.31 bitrate= 383.0kbits/s speed= 283x    size=   59904kB time=00:21:22.54 bitrate= 382.6kbits/s speed= 285x    size=   67328kB time=00:24:00.22 bitrate= 383.0kbits/s speed= 288x    size=   74240kB time=00:26:26.22 bitrate= 383.4kbits/s speed= 288x    size=   81664kB time=00:29:03.08 bitrate= 383.8kbits/s speed= 290x    size=   88064kB time=00:31:20.77 bitrate= 383.6kbits/s speed= 289x    size=   95232kB time=00:33:54.90 bitrate= 383.4kbits/s speed= 291x    size=  102144kB time=00:36:21.57 bitrate= 383.6kbits/s speed= 291x    size=  109312kB time=00:38:55.38 bitrate= 383.4kbits/s speed= 292x    size=  115456kB time=00:41:06.36 bitrate= 383.5kbits/s speed= 290x    size=  121088kB time=00:43:05.09 bitrate= 383.7kbits/s speed= 287x    size=  127744kB time=00:45:29.05 bitrate= 383.5kbits/s speed= 287x    size=  134656kB time=00:47:56.09 bitrate= 383.5kbits/s speed= 288x    size=  141568kB time=00:50:22.98 bitrate= 383.6kbits/s speed= 288x    size=  147456kB time=00:52:27.95 bitrate= 383.7kbits/s speed= 286x    size=  150234kB time=00:53:24.97 bitrate= 384.0kbits/s speed= 286x    
+video:0kB audio:150234kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+WARNING: maAgQ00Qvac: writing DASH m4a. Only some players support this container. Install ffmpeg or avconv to fix this automatically.
+ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.
+ERROR: unable to rename file: [Errno 2] No such file or directory: 'videos/Ab8-xii5_Bs.m4a.part' -> 'videos/Ab8-xii5_Bs.m4a'
